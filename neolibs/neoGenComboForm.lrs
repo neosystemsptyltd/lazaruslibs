@@ -1,0 +1,19 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TGenComboFrm','FORMDATA',[
+  'TPF0'#12'TGenComboFrm'#11'GenComboFrm'#4'Left'#3'>'#1#6'Height'#2'{'#3'Top'#3
+  +#215#0#5'Width'#3#144#1#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#11'GenCom'
+  +'boFrm'#12'ClientHeight'#2'{'#11'ClientWidth'#3#144#1#11'Font.Height'#2#245#9
+  +'Font.Name'#6#13'MS Sans Serif'#10'ParentFont'#8#8'Position'#7#14'poScreenCe'
+  +'nter'#10'LCLVersion'#6#6'0.9.26'#0#6'TLabel'#9'TextLabel'#4'Left'#2#16#6'He'
+  +'ight'#2#14#3'Top'#2#16#5'Width'#2'0'#7'Caption'#6#9'TextLabel'#11'ParentCol'
+  +'or'#8#0#0#9'TComboBox'#5'Combo'#4'Left'#2#16#6'Height'#2#21#3'Top'#2'('#5'W'
+  +'idth'#3'y'#1#10'ItemHeight'#2#13#8'TabOrder'#2#0#4'Text'#6#5'Combo'#0#0#7'T'
+  +'Button'#8'OKButton'#4'Left'#2'P'#6'Height'#2#25#3'Top'#2'P'#5'Width'#2'K'#7
+  +'Caption'#6#3'&OK'#7'OnClick'#7#13'OKButtonClick'#8'TabOrder'#2#1#0#0#7'TBut'
+  +'ton'#12'CancelButton'#4'Left'#3#168#0#6'Height'#2#25#3'Top'#2'P'#5'Width'#2
+  +'K'#6'Cancel'#9#7'Caption'#6#7'&Cancel'#7'OnClick'#7#17'CancelButtonClick'#8
+  +'TabOrder'#2#2#0#0#7'TButton'#10'HelpButton'#4'Left'#3#0#1#6'Height'#2#25#3
+  +'Top'#2'P'#5'Width'#2'K'#7'Caption'#6#5'&Help'#7'OnClick'#7#15'HelpButtonCli'
+  +'ck'#8'TabOrder'#2#3#0#0#0
+]);

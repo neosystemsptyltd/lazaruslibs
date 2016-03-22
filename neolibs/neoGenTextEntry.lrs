@@ -1,0 +1,19 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TGenTextEdit','FORMDATA',[
+  'TPF0'#12'TGenTextEdit'#11'GenTextEdit'#4'Left'#3#26#1#6'Height'#2't'#3'Top'#3
+  +#23#1#5'Width'#3#191#1#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#11'GenText'
+  +'Edit'#12'ClientHeight'#2't'#11'ClientWidth'#3#191#1#11'Font.Height'#2#245#9
+  +'Font.Name'#6#13'MS Sans Serif'#6'OnShow'#7#8'FormShow'#8'Position'#7#15'poD'
+  +'esktopCenter'#10'LCLVersion'#6#6'0.9.28'#0#6'TLabel'#9'LabelText'#4'Left'#2
+  +' '#6'Height'#2#14#3'Top'#2#16#5'Width'#2'0'#7'Caption'#6#9'LabelText'#11'Pa'
+  +'rentColor'#8#0#0#5'TEdit'#7'EditBox'#4'Left'#2' '#6'Height'#2#21#3'Top'#2'('
+  +#5'Width'#3#137#1#9'OnKeyDown'#7#14'EditBoxKeyDown'#8'TabOrder'#2#0#4'Text'#6
+  +#7'EditBox'#0#0#7'TButton'#8'OKButton'#4'Left'#2'X'#6'Height'#2#25#3'Top'#2
+  +'P'#5'Width'#2'K'#7'Caption'#6#3'&OK'#7'OnClick'#7#13'OKButtonClick'#8'TabOr'
+  +'der'#2#1#0#0#7'TButton'#12'CancelButton'#4'Left'#3#176#0#6'Height'#2#25#3'T'
+  +'op'#2'P'#5'Width'#2'K'#6'Cancel'#9#7'Caption'#6#7'&Cancel'#7'OnClick'#7#17
+  +'CancelButtonClick'#8'TabOrder'#2#2#0#0#7'TButton'#10'HelpButton'#4'Left'#3#8
+  +#1#6'Height'#2#25#3'Top'#2'P'#5'Width'#2'K'#7'Caption'#6#5'&Help'#7'OnClick'
+  +#7#15'HelpButtonClick'#8'TabOrder'#2#3#0#0#0
+]);

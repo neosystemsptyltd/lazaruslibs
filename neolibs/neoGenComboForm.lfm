@@ -1,0 +1,60 @@
+object GenComboFrm: TGenComboFrm
+  Left = 318
+  Height = 123
+  Top = 215
+  Width = 400
+  BorderStyle = bsDialog
+  Caption = 'GenComboFrm'
+  ClientHeight = 123
+  ClientWidth = 400
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  ParentFont = False
+  Position = poScreenCenter
+  LCLVersion = '0.9.26'
+  object TextLabel: TLabel
+    Left = 16
+    Height = 14
+    Top = 16
+    Width = 48
+    Caption = 'TextLabel'
+    ParentColor = False
+  end
+  object Combo: TComboBox
+    Left = 16
+    Height = 21
+    Top = 40
+    Width = 377
+    ItemHeight = 13
+    TabOrder = 0
+    Text = 'Combo'
+  end
+  object OKButton: TButton
+    Left = 80
+    Height = 25
+    Top = 80
+    Width = 75
+    Caption = '&OK'
+    OnClick = OKButtonClick
+    TabOrder = 1
+  end
+  object CancelButton: TButton
+    Left = 168
+    Height = 25
+    Top = 80
+    Width = 75
+    Cancel = True
+    Caption = '&Cancel'
+    OnClick = CancelButtonClick
+    TabOrder = 2
+  end
+  object HelpButton: TButton
+    Left = 256
+    Height = 25
+    Top = 80
+    Width = 75
+    Caption = '&Help'
+    OnClick = HelpButtonClick
+    TabOrder = 3
+  end
+end

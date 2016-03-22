@@ -1,0 +1,60 @@
+object GenTextEdit: TGenTextEdit
+  Left = 282
+  Height = 116
+  Top = 279
+  Width = 447
+  BorderStyle = bsDialog
+  Caption = 'GenTextEdit'
+  ClientHeight = 116
+  ClientWidth = 447
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '0.9.28'
+  object LabelText: TLabel
+    Left = 32
+    Height = 14
+    Top = 16
+    Width = 48
+    Caption = 'LabelText'
+    ParentColor = False
+  end
+  object EditBox: TEdit
+    Left = 32
+    Height = 21
+    Top = 40
+    Width = 393
+    OnKeyDown = EditBoxKeyDown
+    TabOrder = 0
+    Text = 'EditBox'
+  end
+  object OKButton: TButton
+    Left = 88
+    Height = 25
+    Top = 80
+    Width = 75
+    Caption = '&OK'
+    OnClick = OKButtonClick
+    TabOrder = 1
+  end
+  object CancelButton: TButton
+    Left = 176
+    Height = 25
+    Top = 80
+    Width = 75
+    Cancel = True
+    Caption = '&Cancel'
+    OnClick = CancelButtonClick
+    TabOrder = 2
+  end
+  object HelpButton: TButton
+    Left = 264
+    Height = 25
+    Top = 80
+    Width = 75
+    Caption = '&Help'
+    OnClick = HelpButtonClick
+    TabOrder = 3
+  end
+end

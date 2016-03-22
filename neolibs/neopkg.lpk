@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="neopkg"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="..\synapse\source\lib\lib\$(TargetCPU)-$(TargetOS)"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <Verbosity>
+          <ShowAll Value="True"/>
+          <ShowDebugInfo Value="True"/>
+          <ShowUsedFiles Value="True"/>
+          <ShowTriedFiles Value="True"/>
+          <ShowExecInfo Value="True"/>
+        </Verbosity>
+      </Other>
+    </CompilerOptions>
+    <Files Count="14">
+      <Item1>
+        <Filename Value="neoCircBuf.pas"/>
+        <UnitName Value="neoCircBuf"/>
+      </Item1>
+      <Item2>
+        <Filename Value="neofileutils.pas"/>
+        <UnitName Value="neofileutils"/>
+      </Item2>
+      <Item3>
+        <Filename Value="neoFormUtils.pas"/>
+        <UnitName Value="neoFormUtils"/>
+      </Item3>
+      <Item4>
+        <Filename Value="neoGenComboForm.lfm"/>
+        <Type Value="LFM"/>
+      </Item4>
+      <Item5>
+        <Filename Value="neoGenComboForm.lrs"/>
+        <Type Value="LRS"/>
+      </Item5>
+      <Item6>
+        <Filename Value="neoGenComboForm.pas"/>
+        <UnitName Value="neoGenComboForm"/>
+      </Item6>
+      <Item7>
+        <Filename Value="neoGenTextEntry.lfm"/>
+        <Type Value="LFM"/>
+      </Item7>
+      <Item8>
+        <Filename Value="neoGenTextEntry.lrs"/>
+        <Type Value="LRS"/>
+      </Item8>
+      <Item9>
+        <Filename Value="neoGenTextEntry.pas"/>
+        <UnitName Value="neoGenTextEntry"/>
+      </Item9>
+      <Item10>
+        <Filename Value="neopcommcrossplatform.pas"/>
+        <UnitName Value="neopcommcrossplatform"/>
+      </Item10>
+      <Item11>
+        <Filename Value="neoTextutils.pas"/>
+        <UnitName Value="neoTextutils"/>
+      </Item11>
+      <Item12>
+        <Filename Value="neotypedef.pas"/>
+        <UnitName Value="neotypedef"/>
+      </Item12>
+      <Item13>
+        <Filename Value="neopkg.pas"/>
+        <UnitName Value="neopkg"/>
+      </Item13>
+      <Item14>
+        <Filename Value="neoprocess.pas"/>
+        <UnitName Value="neoprocess"/>
+      </Item14>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCLBase"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
